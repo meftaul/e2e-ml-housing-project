@@ -46,3 +46,5 @@ Open the project in VS Code and start working on the project.
 [Pandas read\_\* docucemntation](https://pandas.pydata.org/docs/getting_started/intro_tutorials/02_read_write.html)
 [SQLAlchemy](https://www.sqlalchemy.org/)
 [Ydata Profiling](https://docs.profiling.ydata.ai/latest/)
+
+[Preprocessing](https://scikit-learn.org/stable/modules/preprocessing.html)
