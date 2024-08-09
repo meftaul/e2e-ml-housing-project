@@ -41,6 +41,28 @@ git clone https://github.com/meftaul/e2e-ml-housing-project.git
 
 Open the project in VS Code and start working on the project.
 
+
+Session 02 Summary:
+
+- Create train and test datasets
+  - Random sampling
+  - Stratified sampling
+- Split the data into features and target based on `income_cat` - startified sampling
+
+- Data Cleaning
+  - Missing value visualization
+  - Missing values imputation - mean, median
+  - Missing values imputation - SimpleImputer
+
+- Feature Scaling
+  - Standardization
+  - Min-Max Scaling
+  - Normalization (Home work)
+
+- Categorical Encoding
+  - One Hot Encoding (Home work)
+  - Ordinal Encoding
+
 ## References and links
 
 [Pandas read\_\* docucemntation](https://pandas.pydata.org/docs/getting_started/intro_tutorials/02_read_write.html)
