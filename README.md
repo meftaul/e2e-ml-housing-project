@@ -42,7 +42,7 @@ git clone https://github.com/meftaul/e2e-ml-housing-project.git
 Open the project in VS Code and start working on the project.
 
 
-Session 02 Summary:
+## Session 02 Summary:
 
 - Create train and test datasets
   - Random sampling
@@ -63,6 +63,33 @@ Session 02 Summary:
   - One Hot Encoding (Home work)
   - Ordinal Encoding
 
+## Session 03 Summary:
+
+- Create a pipeline for data preprocessing
+  - Numeric features
+    - Mean imputation
+    - Standardization
+  - Categorical features
+    - Most frequent imputation
+    - One Hot Encoding
+- Create a pipeline for model training
+  - Linear Regression
+  - Decision Tree Regressor
+  - Random Forest Regressor
+- Save the model using joblib
+- Load the model and make predictions
+
+- Build a streamlit app
+  - Install streamlit
+
+# Next Session goals:
+- Take the streamlit app to the docker container
+- Experiment tracking with MLflow
+- Data versioning with DVC
+
+
+
+
 ## References and links
 
 [Pandas read\_\* docucemntation](https://pandas.pydata.org/docs/getting_started/intro_tutorials/02_read_write.html)
@@ -70,3 +97,6 @@ Session 02 Summary:
 [Ydata Profiling](https://docs.profiling.ydata.ai/latest/)
 
 [Preprocessing](https://scikit-learn.org/stable/modules/preprocessing.html)
+
+[Pipeline Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html)
+[Streamlit](https://docs.streamlit.io/)
