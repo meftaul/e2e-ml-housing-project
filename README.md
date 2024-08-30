@@ -85,7 +85,6 @@ Open the project in VS Code and start working on the project.
 # Next Session goals:
 - Take the streamlit app to the docker container
 - Experiment tracking with MLflow
-- Data versioning with DVC
 
 
 # Share final application using dokcer:
