@@ -88,6 +88,25 @@ Open the project in VS Code and start working on the project.
 - Data versioning with DVC
 
 
+# Share final application using dokcer:
+- Build the docker image
+  - Create a `Dockerfile`
+  - Build the docker image
+    - `docker build -t housing-app .` or `docker build -t meftaul/housing-app:v1 .`
+    - Change tag name as per your username in the docker hub
+    - `docker tag housing-app:latest meftaul/housing-app:v1`
+- Push the docker image to docker hub
+  - `docker push meftaul/housing-app:v1`
+
+# How to use the docker image? 
+- Install docker
+- Pull the docker image
+  - `docker pull meftaul/housing-app:v1`
+- Run the docker image
+  - `docker run -p 8501:8501 meftaul/housing-app:v1`
+  - `docker run -p <host-machine-port>:<container-port> image-name:version`
+
+
 
 
 ## References and links
